@@ -1,0 +1,189 @@
+body {
+	background: url(img/bg_foto.png) no-repeat;
+	margin: 0;
+	/*background-size: cover;*/
+	}
+
+	
+	
+	div.bg_color {
+		font: normal 16px CeraRoundPro, Times, serif;
+		background: rgba(49, 114, 187, 0.7); /*/ Цвет фона /*/
+		color: #fff;
+		width: 100%;
+		padding-top: 23px;
+	}
+
+
+	@font-face {
+    font-family: CeraRoundPro; /*/ Имя шрифта /*/
+    src: url(font/TypeMates-CeraRoundPro-DEMO/CeraRoundProDEMO-Medium.otf); /* Путь к файлу со шрифтом*/ 
+   }
+
+	.title {
+		height: 40px;
+		margin-left: 35px;
+		
+	}
+
+  h1.title {
+  		font: normal 30px CeraRoundPro, Times, serif;
+  		width: 99%;
+  		margin: 0;
+  		float: left;
+  		margin-left: 1%;
+  	}
+
+	 .bg_color>p {
+	 	font-size: 12px;
+	 	margin-left: 1%;
+	 	margin-top: 1px;
+	 	width: 99%;
+	 	word-spacing: 1.87px;
+	 }	
+
+
+	 nav {
+    display: block;
+    width: 75%;
+    float: left;
+    margin-left: 16%;
+    margin-top: -4%;
+ }
+  
+
+  	ul.top {
+  		display: block;
+  		/*list-style: none;*/
+  	}
+
+	ul.top>li {
+		display: inline;
+		margin-left: 50px;
+	}
+
+
+		ul>li>a {
+    	  color: #fff;
+    	  text-decoration: none;
+		  transition: .5s linear;
+			}
+
+		a.but {
+			float: right;
+			margin-right: 52px;
+			}
+
+
+		 a.but:visited,  a.but:link{
+			text-decoration: none;
+			padding: 1px 11px;
+			display: block;
+			color: white;
+			line-height: 30px;
+			font-size: 18px;
+			margin-top: -52px;
+			}
+
+					a.but:hover{
+						color: white;
+						text-decoration: none;
+						background-color: rgba(49, 114, 187, 0);
+						border: 1px solid;
+						border: 2px solid #5389c3;
+						border-radius: 50px;
+						padding: 0px 9px;
+						margin-top: -53px;
+						}
+
+
+		div.content {
+		    margin: 0 auto;
+		    width: 79%;
+		    font-size: 26px;
+		    height: 495px;
+		}	
+
+		div.content h2 {
+		    margin: 0 auto;
+		    width: 90%;
+		    margin-top: 15%;
+		    text-align: center;
+		}
+				
+
+		span.midl {
+		    margin-left: 85px;
+		}	
+
+
+		div.content p {
+		    width: 670px;
+		    height: 100px;
+		    margin: 35px auto;
+		    font-size: 19px;
+		    text-align: center;
+		}
+
+
+		a.more {
+		    display: block;
+		    margin: 0 auto;
+		    width: 200px;
+		    text-decoration: none;
+		    font-size: 18px;
+		    color: #fff;
+		    padding: 9px 15px;
+		    text-align: center;
+		}
+
+
+
+
+		a.more:hover {
+		    background-color: #e70067;
+		    border-radius: 50px;
+		    padding: 9px 15px;
+		    text-align: center;
+		}
+
+
+
+		.img_tel {
+			display: block;
+		    width: 80%;
+		    margin-top: 10%;
+		    margin-left: 20%;
+		}
+
+		div.dnevnik {
+			width: 34%;
+		    margin-left: 45%;
+		    margin-top: -38%;
+		    color: #60759d;
+		    font: normal 16px CeraRoundPro, Times, serif;
+		   font-weight: 500;
+			}
+
+	.dnevnik p {
+		font-weight: 500;
+   		line-height: 24px;
+   		margin-left: -50px;
+   }
+
+
+   .dnevnik h2 {
+    font-size: 30px;
+    margin-left: -50px;
+	}
+
+
+   .dnevnik li {
+    margin-bottom: 20px;
+    color: #16afe0;
+	}
+
+	.dnevnik li span {
+    color: #60759d;
+	}
+	
